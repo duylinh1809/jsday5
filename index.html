@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<div ondblclick="setColor(event)" style="width: 50px; height: 50px; background-color: red; margin-bottom: 10px">
+
+</div>
+
+<div ondblclick="setColor(event)" style="width: 50px; height: 50px; background-color: yellow ; margin-bottom: 10px">
+
+</div>
+
+<div ondblclick="setColor(event)" style="width: 50px; height: 50px; background-color: green ; margin-bottom: 10px">
+
+</div>
+
+<div ondblclick="setColor(event)" style="width: 50px; height: 50px; background-color: blue ; margin-bottom: 10px">
+
+</div>
+
+<div id="showColor" style="width: 50px; height: 50px; background-color: white; border: 1px solid black">
+
+</div>
+
+
+<form style="margin-top: 50px">
+  <input id="username" placeholder="Nhập user name" value="" onchange="validate(event)"> <br>
+  <span id="error"></span>
+</form>
+
+<a onmouseover="hover(event)" href="https://google.com" onmouseout="out(event)">Google.com</a>
+
+<input placeholder="nhập password" onkeypress="keyDown(event)"  value=""> <br/>
+
+<span oncopy="coppy(event)">Coppy me</span>
+<span id="coppy"></span>
+
+
+<button id="button">Click me</button>
+<script src="asset/js/index.js">
+
+</script>
+</body>
+</html>
